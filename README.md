@@ -1,0 +1,2 @@
+# T265MatlabAnalysis
+This repository contains a variety of Matlab codes used for visualizing, analyzing, and filter design associated with the T265 camera and the Motiv motion capture system. Each Matlab code is commented to explain its purpose.
