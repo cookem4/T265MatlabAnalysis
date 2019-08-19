@@ -1,3 +1,8 @@
+
+%This script is used to analyse the mean and standard deviation of the
+%camera's reliability when it is used to to collect data. The CSV file
+%shows the instances when the camera works (1) vs when it doesn't work (0)
+
 dataMat = csvread("FullCamData.csv", 1,0);
 
 sum1 = 0;

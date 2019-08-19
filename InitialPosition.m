@@ -1,3 +1,8 @@
+%Plots the quaternions as unit axis to help with understanding how the T265
+%camera reports its quaternion. The T265 documentation on T265
+%documentation explains this.
+
+
 Q1 = csvread("C:\Users\mitch\Documents\ResearchSummer19\DroneData\coordinateData.csv");
 Q2 = csvread("C:\Users\mitch\Documents\ResearchSummer19\DroneData\RealSenseFlight.csv");
 Q3 = csvread("C:\Users\mitch\Documents\ResearchSummer19\DroneData\heading.csv");

@@ -1,3 +1,6 @@
+%Plots quaternion as unit axis in time to see how the T265 device is
+%rotated troughout a trajectory
+
 %Q1 = csvread("C:\Users\mitch\Documents\ResearchSummer19\FormattedT265Quart.csv");
 %Q2 = csvread("C:\Users\mitch\Documents\ResearchSummer19\FormattedMotivQuart.csv");
 %Q1 = csvread("C:\Users\mitch\Documents\ResearchSummer19\XAxisSquareNvidia.csv");

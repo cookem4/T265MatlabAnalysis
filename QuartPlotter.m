@@ -1,3 +1,6 @@
+%Plots the orientation as unit axis along with the position at which each
+%orientation was recorded.
+
 Q1 = csvread("C:\Users\mitch\Documents\ResearchSummer19\FormattedT265Quart.csv");
 Q2 = csvread("C:\Users\mitch\Documents\ResearchSummer19\FormattedMotivQuart.csv");
 

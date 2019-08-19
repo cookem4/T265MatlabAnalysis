@@ -1,3 +1,7 @@
+
+%This script aligns the T265 data and motion capture data in time to plot
+%and analyze the errors associated with the T265
+
 M1 = csvread("C:\Users\mitch\Documents\ResearchSummer19\FacingSideways\ZAxisNvidia.csv");
 M2 = csvread("C:\Users\mitch\Documents\ResearchSummer19\FacingSideways\ZAxisMotivFormatted.csv");
 

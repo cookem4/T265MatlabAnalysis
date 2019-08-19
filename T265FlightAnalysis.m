@@ -1,5 +1,6 @@
-%Plots trajectories from flight controlled by the T265 with motiv recroding
-%for reference
+%Plots trajectories from flight controlled by the T265 with motiv recording
+%for reference. There are some of the first flights done with the T265 in
+%the control loop.
 
 M1 = csvread("C:\Users\mitch\Documents\ResearchSummer19\TrueFlightData\Flight1.csv");
 

@@ -1,6 +1,7 @@
 %Used to find the coordinate axis with motiv
 %Test first does rotation around X axis, then Z axis, then Y axis
 %This corresponds to roll, then yaw, then pitch
+
 file = csvread("C:\Users\mitch\Documents\ResearchSummer19\Rotations.csv");
 headings = [file(:,3) file(:,4) file(:,5) file(:,6)];
 x = file(:,3);

@@ -1,5 +1,7 @@
 
 %Used to filter the flight path for tuning low pass filter parameters
+%When running this script, MANY graphs will pop up that show the effects of
+%different position and velocity filters
 
 M1 = csvread("C:\Users\mitch\Documents\ResearchSummer19\DroneData\coordinateData2.csv");
 M2 = csvread("C:\Users\mitch\Documents\ResearchSummer19\DroneData\RealSenseFlight2Formatted.csv");
@@ -10,14 +12,16 @@ xM = M2(:,1);
 yM = M2(:,2);
 zM = M2(:,3);
 
+
+%CHANGE THESE FILTER VALUES
 orderRS=10;
 orderMotiv = 100;
 decayFactor=0.05;
 filteredPosRS = zeros(length(M1),3);
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%Can implement with decaying or non decaying coefficients for the FIR %%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %If coefficients decay as a power of two then the sum will be weighted to
 %one as N of the FIR approaches infinity
